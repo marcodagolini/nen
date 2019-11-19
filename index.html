@@ -311,11 +311,11 @@ window.onload = function() {
 	if (mobileCheck()){
 		console.log("tagging mobile");
 		var CurrentLocation = "https://notAuthenticatedMobile";
-		lpTag.newPage(CurrentLocation, {section: "unAuthMobile"});
+		lpTag.newPage(CurrentLocation, {section: "unauthmobile"});
 	} else{
 		console.log("tagging desktop");
 		var CurrentLocation = "https://notAuthenticatedDesktop";
-		lpTag.newPage(CurrentLocation, {section: "unAuthDesktop"});
+		lpTag.newPage(CurrentLocation, {section: "unauthdesktop"});
 	}
 
 
