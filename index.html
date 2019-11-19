@@ -42,11 +42,24 @@
   position: absolute;
   top: 150px;
   left: 110px;
+}
+.addressInput {
+  font-size: 30px;
+  position: absolute;
+  top: 130px;
+  left: 110px;
 } 
 .Name {
   font-size: 30px;
   position: absolute;
   top: 150px;
+  left: 20px;
+  margin-top: 8px;
+}
+.Address {
+  font-size: 30px;
+  position: absolute;
+  top: 130px;
   left: 20px;
   margin-top: 8px;
 } 
@@ -347,10 +360,11 @@ $(document).ready(function() {
 	  
 	 
 	<div id="customerID" class="myDiv">Highlight this!</div><br>
-	 <div id="Name" class="Name">Name: </div> <input class="myNameInput" size="15" type="text" name="FirstName" value="Name">
+	<div id="Name" class="Name">Name: </div> <input class="myNameInput" size="15" type="text" name="FirstName" value="Name">
+	<div id="Address" class="Address">Address: </div> <input class="addressInput" size="15" type="text" name="Address" value="Address">
 	  
-	  <div id="myLogin" class="myLoginButton">Login</div>
-	   <div id="myLogOut" class="myLoginButton" style="display:none;">Logout</div>
+	<div id="myLogin" class="myLoginButton">Login</div>
+	<div id="myLogOut" class="myLoginButton" style="display:none;">Logout</div>
 
 <div id="id01" class="myModal">
   
